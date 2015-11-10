@@ -1,6 +1,6 @@
 #!/bin/bash
 dir=~/dotfiles
-files=".vimrc .tmux.conf .zshrc .oh_my_zsh"
+files=".vimrc .tmux.conf .zshrc .oh-my-zsh"
 
 cd $dir
 for file in $files; do
