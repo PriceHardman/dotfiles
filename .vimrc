@@ -20,6 +20,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'takac/vim-hardtime'	" For taking off the training wheels.
 Plugin 'flazz/vim-colorschemes'
+Plugin 'godlygeek/csapprox'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -29,7 +30,7 @@ filetype plugin indent on    " required
 let g:hardtime_default_on = 1
 
 " Color configuration
-colorscheme monokain
+colorscheme Tomorrow-Night-Bright
 
 if $COLORTERM == 'gnome-terminal'
         set t_Co=256
