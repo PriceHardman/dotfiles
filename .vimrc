@@ -28,4 +28,9 @@ filetype plugin indent on    " required
 " Run hardtime by default in all buffers
 let g:hardtime_default_on = 1
 
+" Color configuration
 colorscheme monokain
+
+if $COLORTERM == 'gnome-terminal'
+        set t_Co=256
+end
