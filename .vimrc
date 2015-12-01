@@ -31,8 +31,9 @@ filetype plugin indent on    " required
 let g:hardtime_default_on = 1
 
 " Color configuration
-colorscheme molokai
-let g:molokai_original = 1
-let g:rehash256 = 1
+colorscheme Tomorrow-Night-Bright
+"colorscheme molokai
+"let g:molokai_original = 1
+"let g:rehash256 = 1
 
 "set t_Co=256
