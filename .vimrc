@@ -20,8 +20,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'takac/vim-hardtime'	" For taking off the training wheels.
 Plugin 'flazz/vim-colorschemes'
-Plugin 'godlygeek/csapprox'
-Plugin 'tomasr/molokai'
+"Plugin 'godlygeek/csapprox'
+"Plugin 'tomasr/molokai'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -35,6 +35,4 @@ colorscheme molokai
 let g:molokai_original = 1
 let g:rehash256 = 1
 
-if $COLORTERM == 'gnome-terminal'
-        set t_Co=256
-end
+"set t_Co=256
